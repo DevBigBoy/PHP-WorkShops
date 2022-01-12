@@ -167,3 +167,73 @@ warning:
 // continue
 
 ?>
+
+
+<?php
+$status;
+$temp = 0;
+// 0---1
+if ($temp <= 0) {
+    $status = 'snow Weather';
+} elseif ($temp >= 1 && $temp < 15){
+    $status = 'cold Weather';
+} elseif ($temp >= 15 && $temp < 30){
+    $status = 'warn Weather';
+} elseif($temp >= 30){
+    $status = 'hot Weather';
+}
+
+?>
+
+<p>Today's Weather is <?=$status;?></p>
+
+<h3>Switch</h3>
+<?php
+
+$color = 'red';
+
+switch ($color) {
+    case 'red':
+        echo 'I don\'t perfer this color';
+        break;
+    case 'black':
+        echo "I like this color";
+        break;
+    case 'yellow':
+        echo"I don't like this color";
+        break;
+    case 'blue':
+        echo "I like this color";
+        break;
+    default:
+        echo 'Not Supported color';
+        break;
+}
+?>
+
+<?php
+
+$color = 'red';
+
+switch ($color) {
+    case 'red':
+        echo 'I don\'t perfer this color';
+        break;
+    case 'black':
+        echo "I like this color";
+        break;
+    case 'yellow':
+        echo"I don't like this color";
+        break;
+    case 'blue':
+        echo "I like this color";
+        break;
+    default:
+        echo 'Not Supported color';
+        break;
+}
+?>
+
+<?php
+(true)? true : false;
+?>
