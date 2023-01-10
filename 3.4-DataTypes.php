@@ -1,92 +1,34 @@
+<h1>PHP's Data Types</h1>
 <?php
-/*
-* DataTypes
-*/
-// Scalar Data Types
-// integer, float, string, boolean
 
-// Compound Data Types
-// array, object
+/**
+ * DataTypes
+ * 
+ * Scalar Data Types: (are used to represent a single value)
+ *     Boolean
+ * integer, float, string, boolea
+ * Compound Data Type
+ * array, object
+ * integer
+ * Decimal, Binary, Octal, Hexadecimal
+ */
 
-// integer
-// Decimal, Binary, Octal, Hexadecimal
-// $number = -10;
-// echo "Number of students in our class is {$number}";
+ ?>
+<h3>Boolean</h3>
+<?php
+ $alive = false;     //! $alive is false.
+ $alive = true;      // $alive is true.
+ $alive = 1;         // $alive is true.
+ $alive = -1;        // $alive is true, because -1 is nonzero.
+ $alive = 5;         // $alive is true.
+ $alive = 0;         //! $alive is false.
+ $alive = 'a';       // $alive is true.
+ $alive = '1';       // $alive is true.
+ $alive = '0';       //! $alive is false.
 
 
-// float | double, Real
+ ?>
+<h3>Integer</h3>
 
-$number = -102.5;
-$number = 1e3;
-// echo PHP_INT_MAX;
-// echo PHP_INT_SIZE;
-// echo $number;
-
-// String
-$welcome = "<H2>Welcome to my website</h2>";
-// echo $welcome;
-
-// Boolean
-// TRUE, FALSE
-// $status = True;
-// echo $status;
-
-// Array
-$friends = array('ahmed', 'khaled', 'tarek', 'eslam','Ziad');
-// echo $friends[0];
-
-// Object
-
-class Employer 
-{
-    public $name;    
-    public $age;    
-    public $salary;    
-
-    public function showsalary()
-    {
-        echo $this->salary;
-    }
-}
-
-$emp1 = new Employer();
-$emp1->name = 'ali';
-// echo $emp1->name;
-
-// Coverting data type using type casting
-/*
- (array) 
- (real) (float) (double)
- (int) (integer)
- (string)
- (object)
- (bool) (boolean)
-*/
-
-$x = (bool) 8;
-// print_r($x)
-
-// type-related functions
-// gettype
-// settype
-
-$result = gettype($x);
-// echo $result;
-
-$s = 4;
-$y = settype($s,'array');
-$result = gettype($y);
-echo $result;
-
-/*
-
-    is_array()
-    is_name()
-*/ 
-
-$num ='ali';
-$num1 =3;
-echo 'the variable $num is interger =>' . is_int($num);
-
-echo '<br>the variable $num1 is interger =>' . is_int($num1)
+<?php
 ?>

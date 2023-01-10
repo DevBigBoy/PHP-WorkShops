@@ -38,6 +38,18 @@ $_SESSION['welcome'] = 'welcome to mazarita school';
         <li>
             <a href="3.3-Outputting_data.php" class="">Outputting Data to the Client</a>
         </li>
+        <li>
+            <a href="3.4-DataTypes.php" class="">PHP’s Data Types</a>
+        </li>
+        <li>
+            <a href="4.1-function.php" class="">Functions</a>
+        </li>
+        <li>
+            <a href="5.1-arrays.php" class="">Arrays</a>
+        </li>
+        <li>
+            <a href="5.2-arrays.php" class="">Arrays</a>
+        </li>
     </ul>
 </body>
 
