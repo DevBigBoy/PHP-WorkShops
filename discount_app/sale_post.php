@@ -1,7 +1,8 @@
 <?PHP
 
 if (!$_POST) {
-    echo "Error 405 Method Not Allowed";die;
+    // echo "Error 405 Method Not Allowed";die;
+    header('location:sale.php');die;
 }
 
 // user -> enter his name
