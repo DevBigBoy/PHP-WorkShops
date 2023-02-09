@@ -138,5 +138,8 @@ foreach ($users as $user) {
 ---------------------------------
 <h3>Populating Arrays with a Predefined Value Range</h3>
 <p>
-
+    the range() function provides an easy way to quickly create and fill an array consisiting of range of low and high
+    ineger values. an array containing all int
 </p>
+
+<h3>Testing for an Array</h3>

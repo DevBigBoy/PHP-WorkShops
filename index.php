@@ -50,18 +50,44 @@ $_SESSION['welcome'] = 'welcome to mazarita school';
         <li>
             <a href="3.7-Managing_constant_data.php" class="">Managing_constant_data</a>
         </li>
-        <li>
-            <a href="4.1-function.php" class="">Functions</a>
-        </li>
 
+
+    </ul>
+    <ul class="ch4">
+        <li>
+            <a href="04-functions/4.1-function.php" class="">Functions</a>
+        </li>
+        <li>
+            <a href="04-functions/calculator.php" class="">calculator</a>
+        </li>
+        <li>
+            <a href="04-functions/4.3-builtIn-functions.php" class="">PHP Built-in Functions</a>
+        </li>
     </ul>
     <ul class="ch5">
         <li>
             <a href="5.1-arrays.php" class="">Arrays</a>
         </li>
         <li>
-            <a href="5.2-arrays.php" class="">Arrays</a>
+            <a href="5.2-Outputting_an_Array.php">Arrays</a>
         </li>
+        <li>
+            <a href="5.3-Adding_RemovingArrayElements.php" class="">Arrays</a>
+        </li>
+        <li>
+            <a href="5.4-Locating_Array_Elements.php" class="">Arrays</a>
+        </li>
+
+    </ul>
+    <ul class="ch8">
+        <li>
+            <a href="8.1-error_handling.php" class="">Error Handling</a>
+        </li>
+        <li>
+            <a href="8.2-exception_handling.php" class="">Exception Handling</a>
+        </li>
+
+
     </ul>
 </body>
 
