@@ -12,18 +12,18 @@ $_SESSION['welcome'] = 'welcome to mazarita school';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP WorkShop</title>
     <style>
-    body {
-        font-family: monospace;
-        font-size: 1rem;
-        background-color: #444;
-        color: #fff;
-    }
+        body {
+            font-family: monospace;
+            font-size: 1rem;
+            background-color: #444;
+            color: #fff;
+        }
 
-    a {
-        display: inline-block;
-        padding: 0.5rem 1rem;
-        color: #fff;
-    }
+        a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            color: #fff;
+        }
     </style>
 </head>
 
@@ -57,11 +57,15 @@ $_SESSION['welcome'] = 'welcome to mazarita school';
         <li>
             <a href="04-functions/4.1-function.php" class="">Functions</a>
         </li>
+
         <li>
-            <a href="04-functions/calculator.php" class="">calculator</a>
+            <a href="04-functions/4.2-function.php" class="">Function Part 2</a>
         </li>
         <li>
             <a href="04-functions/4.3-builtIn-functions.php" class="">PHP Built-in Functions</a>
+        </li>
+        <li>
+            <a href="04-functions/calculator.php" class="">calculator</a>
         </li>
     </ul>
     <ul class="ch5">

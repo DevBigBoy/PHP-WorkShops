@@ -6,6 +6,6 @@
 // destory session
 
 session_destroy();
-unset($_SESSION['number']);
+
 
 ?>
