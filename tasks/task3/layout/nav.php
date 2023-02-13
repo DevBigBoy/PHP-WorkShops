@@ -11,6 +11,9 @@
             <?php
             if (isset($_SESSION['user'])) {
             ?>
+            <li class="nav-item">
+                <a href="home.php" class="nav-link" role="button">Home</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
                     <?= $_SESSION['user']->name; ?>
@@ -21,6 +24,7 @@
                     <a class="dropdown-item" href="logout.php">Logout</a>
                 </div>
             </li>
+
             <?php
             } else {
             ?>

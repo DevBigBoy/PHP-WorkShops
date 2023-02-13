@@ -1,7 +1,12 @@
 <?php
 $title = 'login';
 include 'layout/header.php';
+include "middleware/gust.php";
 include 'layout/nav.php';
+
+// if (isset($_SESSION['user'])) {
+//     header('location: home.php');die;
+// }
 // very simple app authentication task
 $users = [
     (object) [
@@ -53,9 +58,7 @@ if ($_POST) {
                 //header user to home page
                 header("location: home.php");
                 die;
-
                 //break loop
-
 
             }
         }
@@ -93,8 +96,7 @@ if ($_POST) {
                 </div>
                 <div class="form-group">
                     <label for="Password">Password</label>
-                    <input type="Password" name="password" id="Password" class="form-control"
-                        placeholder="Enter Your Password" aria-describedby="helpId">
+                    <input type="Password" name="password" id="Password" class="form-control" placeholder="Enter Your Password" aria-describedby="helpId">
                     <?php
                     if (isset($errors['password'])) {
                         echo $errors['password'];

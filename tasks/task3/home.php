@@ -2,7 +2,9 @@
 
 $title = 'home';
 include "layout/header.php";
+include "middleware/auth.php";
 include "layout/nav.php";
+
 
 
 ?>
