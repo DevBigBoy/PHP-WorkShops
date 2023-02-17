@@ -24,6 +24,7 @@
 class User
 {
     # properties
+    # Declaring Properties
     public $userId;
     public $name;
     public $email;
@@ -73,6 +74,7 @@ class Product
 
 # Create Object
 $ali = new User();
+# Invoking Properties
 $ali->name = 'ali gad';
 $ali->email = 'ali@gmail.com';
 $ali->password = '123456';

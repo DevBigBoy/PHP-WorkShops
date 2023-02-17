@@ -19,3 +19,21 @@
 
 - classes
 - object
+- Properties
+
+  - How to declare and invoke properties
+  - how to restrict access using property scopes
+
+- ## example: Application for managing public library
+
+- classes represeting books
+- magazines
+- employees
+- special events
+- patrons
+
+## Managing property scopes
+
+- public
+- private
+- protected
